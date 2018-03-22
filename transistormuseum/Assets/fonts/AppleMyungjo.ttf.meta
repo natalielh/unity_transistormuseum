@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 2525ab526ba9b4256955521aa29f1df2
+timeCreated: 1512348308
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: AppleMyungjo
+  fontNames:
+  - AppleMyungjo
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

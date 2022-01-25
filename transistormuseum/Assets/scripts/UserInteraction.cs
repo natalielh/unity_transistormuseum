@@ -3,7 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class UserInteraction : MonoBehaviour {
-	public int minIndex = 0;
+
+    public CameraManager cameraManager;
+
+    public int minIndex = 0;
 	public int maxIndex = 10;	// default: 10 (overridden when the game starts to the cubes array length)
 
 	public int nodeIndex = 0;
@@ -35,6 +38,7 @@ public class UserInteraction : MonoBehaviour {
 				Debug.Log("The node index was INcremented(+) | nodeIndex = " + nodeIndex);
 				currentlyMoving = true;
 				Debug.Log("currentlyMoving set to: " + currentlyMoving);
+                cameraManager.MoveObjects();
 			}
 			else if(nodeIndex > minIndex && ((Input.GetAxisRaw("Horizontal") < 0) || (Input.GetAxisRaw("Vertical") < 0))){
 				// if you press LEFT or DOWN
@@ -43,7 +47,8 @@ public class UserInteraction : MonoBehaviour {
 				Debug.Log("The node index was DEcremented(-) | nodeIndex = " + nodeIndex);
 				currentlyMoving = true;
 				Debug.Log("currentlyMoving set to: " + currentlyMoving);
-			}
+                cameraManager.MoveObjects();
+            }
 
 //			if(nodeIndex < minIndex){
 //				nodeIndex = minIndex;

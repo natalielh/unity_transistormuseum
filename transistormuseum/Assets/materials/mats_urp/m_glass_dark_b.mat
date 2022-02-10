@@ -22,7 +22,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: m_glass_dark_b
   m_Shader: {fileID: 4800000, guid: 1d6e561d2a2bdae46a0884077d1708ba, type: 3}
-  m_ShaderKeywords: _BLENDRIM _EMISSION _RIMLIGHT
+  m_ShaderKeywords: _BLENDRIM _RIMLIGHT _SPECULAR_SETUP
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -125,7 +125,7 @@ Material:
     - _EnableOutline: 0
     - _EnableRampMap: 0
     - _EnableRim: 1
-    - _EnableStencil: 0
+    - _EnableStencil: 1
     - _EnvironmentReflections: 1
     - _GlossMapScale: 0
     - _Glossiness: 0
@@ -157,18 +157,18 @@ Material:
     - _SpecularStep: 0.5
     - _SrcBlend: 5
     - _StencilChannel: 1
-    - _StencilComp: 0
+    - _StencilComp: 6
     - _StencilOp: 0
-    - _StencilType: 0
+    - _StencilType: 1
     - _Surface: 0
     - _SurfaceType: 1
     - _UseSmoothNormal: 0
-    - _WorkflowMode: 1
+    - _WorkflowMode: 0
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 0.3443396, g: 0.41630226, b: 1, a: 0.5176471}
+    - _BaseColor: {r: 0.41037738, g: 0.4739297, b: 1, a: 0.627451}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _EmissionColor: {r: 0, g: 0.065537944, b: 0.2830189, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _OutlineColor: {r: 0, g: 0, b: 0, a: 0}
     - _RimColor: {r: 1, g: 1, b: 1, a: 1}
     - _Shadow1Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}

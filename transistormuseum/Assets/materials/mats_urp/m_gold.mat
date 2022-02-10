@@ -21,14 +21,16 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: m_gold
-  m_Shader: {fileID: 4800000, guid: 9b6dfab7d4a99d945954dc4b51f31a63, type: 3}
-  m_ShaderKeywords: _ADDITIONAL_LIGHTS_ENABLED _FOG _FRESNEL _RAMP_TRIPLE _SPECULAR
+  m_Shader: {fileID: 4800000, guid: 1d6e561d2a2bdae46a0884077d1708ba, type: 3}
+  m_ShaderKeywords: _BLENDRIM _RIMLIGHT
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
+  m_CustomRenderQueue: 2000
+  stringTagMap:
+    RenderType: Opaque
+  disabledShaderPasses:
+  - Outline
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -37,6 +39,10 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ClipMask:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -52,7 +58,15 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _DiffuseRampMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _InShadowMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -76,6 +90,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _SpecularShiftMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -92,6 +110,7 @@ Material:
     - _AdditionalLights: 1
     - _AlphaClip: 0
     - _Blend: 0
+    - _BlendRim: 1
     - _BumpScale: 1
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
@@ -99,8 +118,15 @@ Material:
     - _Cutoff: 0.5
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
+    - _DiffuseRampV: 0
     - _DstBlend: 0
     - _Emission: 0
+    - _EnableHairSpecular: 0
+    - _EnableInShadowMap: 0
+    - _EnableOutline: 0
+    - _EnableRampMap: 0
+    - _EnableRim: 1
+    - _EnableStencil: 1
     - _EnvironmentReflections: 1
     - _Fog: 1
     - _Fresnel: 1
@@ -110,8 +136,11 @@ Material:
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
+    - _InShadowMapStrength: 1
+    - _InverseClipMask: 0
     - _Metallic: 0
     - _OcclusionStrength: 1
+    - _OutlineWidth: 1
     - _Parallax: 0.005
     - _QueueOffset: 0
     - _Ramp0: 0.2
@@ -119,21 +148,45 @@ Material:
     - _RampSmoothness: 0.046
     - _RampTriple: 1
     - _ReceiveShadows: 1
+    - _RenderQueue: 2000
+    - _RimFeather: 0
+    - _RimPow: 2
+    - _RimStep: 0.179
+    - _Shadow1Feather: 0
+    - _Shadow1Step: 0.5
+    - _Shadow2Feather: 0
+    - _Shadow2Step: 0.3
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _Specular: 1
+    - _Specular2Mul: 0.5
+    - _SpecularFeather: 0
     - _SpecularHighlights: 1
     - _SpecularOpacity: 1
+    - _SpecularShift1: 0
+    - _SpecularShift2: 0
+    - _SpecularShiftIntensity: 1
     - _SpecularSize: 0.694
     - _SpecularSmoothness: 0.293
+    - _SpecularStep: 0.5
     - _SrcBlend: 1
+    - _StencilChannel: 1
+    - _StencilComp: 8
+    - _StencilOp: 2
+    - _StencilType: 0
     - _Surface: 0
+    - _SurfaceType: 0
+    - _UseSmoothNormal: 0
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
     - _BaseColor: {r: 0.909804, g: 0.78823537, b: 0.2627451, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _OutlineColor: {r: 0, g: 0, b: 0, a: 0}
+    - _RimColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Shadow1Color: {r: 1, g: 0.5991268, b: 0, a: 1}
+    - _Shadow2Color: {r: 1, g: 0.32040966, b: 0, a: 1}
     - _ShadowTint: {r: 0.9433962, g: 0.49044564, b: 0.23584905, a: 1}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
   m_BuildTextureStacks: []

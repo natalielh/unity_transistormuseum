@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-8951477498359774320
+--- !u!114 &-4787650620317000675
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,16 +20,17 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: m_metalgrey
+  m_Name: m_wall
   m_Shader: {fileID: 4800000, guid: 1d6e561d2a2bdae46a0884077d1708ba, type: 3}
-  m_ShaderKeywords: _BLENDRIM _RIMLIGHT
+  m_ShaderKeywords: _BLENDRIM
   m_LightmapFlags: 4
-  m_EnableInstancingVariants: 1
+  m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: 2000
   stringTagMap:
     RenderType: Opaque
-  disabledShaderPasses: []
+  disabledShaderPasses:
+  - Outline
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -106,7 +107,6 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _AdditionalLights: 1
     - _AlphaClip: 0
     - _Blend: 0
     - _BlendRim: 1
@@ -119,19 +119,13 @@ Material:
     - _DetailNormalMapScale: 1
     - _DiffuseRampV: 0
     - _DstBlend: 0
-    - _Emission: 0
     - _EnableHairSpecular: 0
     - _EnableInShadowMap: 0
-    - _EnableOutline: 1
+    - _EnableOutline: 0
     - _EnableRampMap: 0
-    - _EnableRim: 1
-    - _EnableStencil: 1
+    - _EnableRim: 0
+    - _EnableStencil: 0
     - _EnvironmentReflections: 1
-    - _Fog: 1
-    - _Fresnel: 0
-    - _FresnelOpacity: 1
-    - _FresnelSmoothness: 0.1
-    - _FresnelThickness: 0.25
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
@@ -139,39 +133,31 @@ Material:
     - _InverseClipMask: 0
     - _Metallic: 0
     - _OcclusionStrength: 1
-    - _OutlineWidth: 0.5
+    - _OutlineWidth: 1
     - _Parallax: 0.005
     - _QueueOffset: 0
-    - _Ramp0: 0.2
-    - _Ramp1: 0.5
-    - _RampSmoothness: 0.046
-    - _RampTriple: 1
     - _ReceiveShadows: 1
     - _RenderQueue: 2000
-    - _RimFeather: 0.059
-    - _RimPow: 2.54
+    - _RimFeather: 0
+    - _RimPow: 4
     - _RimStep: 0.5
     - _Shadow1Feather: 0
-    - _Shadow1Step: 0.672
+    - _Shadow1Step: 0.5
     - _Shadow2Feather: 0
-    - _Shadow2Step: 0.537
+    - _Shadow2Step: 0.3
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
-    - _Specular: 0
     - _Specular2Mul: 0.5
     - _SpecularFeather: 0
     - _SpecularHighlights: 1
-    - _SpecularOpacity: 1
     - _SpecularShift1: 0
     - _SpecularShift2: 0
     - _SpecularShiftIntensity: 1
-    - _SpecularSize: 0.694
-    - _SpecularSmoothness: 0.293
     - _SpecularStep: 0.5
     - _SrcBlend: 1
     - _StencilChannel: 1
-    - _StencilComp: 8
-    - _StencilOp: 2
+    - _StencilComp: 0
+    - _StencilOp: 0
     - _StencilType: 0
     - _Surface: 0
     - _SurfaceType: 0
@@ -179,13 +165,12 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 0.14195444, g: 0.14317624, b: 0.20754719, a: 1}
+    - _BaseColor: {r: 0.6509434, g: 0.51660955, b: 0.4206568, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _OutlineColor: {r: 0, g: 0.002256956, b: 0.38679248, a: 0}
-    - _RimColor: {r: 0.29411766, g: 0.27058825, b: 0.49803925, a: 1}
-    - _Shadow1Color: {r: 0.07262371, g: 0.12667766, b: 0.3018868, a: 1}
-    - _Shadow2Color: {r: 0.032128863, g: 0.05172689, b: 0.3584906, a: 0}
-    - _ShadowTint: {r: 0, g: 0.052215908, b: 0.3207547, a: 1}
+    - _OutlineColor: {r: 0, g: 0, b: 0, a: 0}
+    - _RimColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Shadow1Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
+    - _Shadow2Color: {r: 0, g: 0, b: 0, a: 0}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
   m_BuildTextureStacks: []

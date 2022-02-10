@@ -21,8 +21,8 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: m_glass_dark
-  m_Shader: {fileID: 4800000, guid: 650dd9526735d5b46b79224bc6e94025, type: 3}
-  m_ShaderKeywords: _ALPHAPREMULTIPLY_ON
+  m_Shader: {fileID: 4800000, guid: 0406db5a14f94604a8c57ccfbc9f3b46, type: 3}
+  m_ShaderKeywords: _COLORCOLOR_ON _DISTORTION_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 1
@@ -105,7 +105,7 @@ Material:
     m_Floats:
     - _AdditionalLights: 1
     - _AlphaClip: 0
-    - _Blend: 1
+    - _Blend: 2
     - _BlendOp: 0
     - _BumpScale: 1
     - _CameraFadingEnabled: 0
@@ -115,14 +115,14 @@ Material:
     - _ClearCoatSmoothness: 0
     - _ColorMode: 4
     - _Cull: 1
-    - _Cutoff: 0
+    - _Cutoff: 0.5
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
-    - _DistortionBlend: 0.5
-    - _DistortionEnabled: 0
+    - _DistortionBlend: 1
+    - _DistortionEnabled: 1
     - _DistortionStrength: 1
     - _DistortionStrengthScaled: 0.1
-    - _DstBlend: 10
+    - _DstBlend: 1
     - _Emission: 0
     - _EnableExternalAlpha: 0
     - _EnvironmentReflections: 0
@@ -162,7 +162,7 @@ Material:
     - _SpecularOpacity: 1
     - _SpecularSize: 0.694
     - _SpecularSmoothness: 0.293
-    - _SrcBlend: 1
+    - _SrcBlend: 5
     - _Surface: 1
     - _UseColorMap: 0
     - _UseEmissiveMap: 0
@@ -174,7 +174,7 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 0
     m_Colors:
-    - _BaseColor: {r: 0.7877358, g: 0.8123138, b: 1, a: 1}
+    - _BaseColor: {r: 0.3820755, g: 0.44992587, b: 1, a: 1}
     - _BaseColorAddSubDiff: {r: -1, g: 1, b: 0, a: 0}
     - _CameraFadeParams: {r: 0, g: Infinity, b: 0, a: 0}
     - _Color: {r: 1, g: 0.6273585, b: 0.6273585, a: 1}

@@ -1,77 +1,14 @@
 fileFormatVersion: 2
-guid: 6a73aa7324435476e841917c1b65f53f
+guid: a343fc361eab4884f9a42d6ae753f71f
 ModelImporter:
   serializedVersion: 20200
-  internalIDToNameTable:
-  - first:
-      1: 100000
-    second: //RootNode
-  - first:
-      1: 100002
-    second: Camera
-  - first:
-      1: 100004
-    second: Curve
-  - first:
-      1: 100006
-    second: Curve.001
-  - first:
-      1: 100008
-    second: Curve.002
-  - first:
-      1: 100010
-    second: Lamp
-  - first:
-      4: 400000
-    second: //RootNode
-  - first:
-      4: 400002
-    second: Camera
-  - first:
-      4: 400004
-    second: Curve
-  - first:
-      4: 400006
-    second: Curve.001
-  - first:
-      4: 400008
-    second: Curve.002
-  - first:
-      4: 400010
-    second: Lamp
-  - first:
-      23: 2300000
-    second: Curve
-  - first:
-      23: 2300002
-    second: Curve.001
-  - first:
-      23: 2300004
-    second: Curve.002
-  - first:
-      33: 3300000
-    second: Curve
-  - first:
-      33: 3300002
-    second: Curve.001
-  - first:
-      33: 3300004
-    second: Curve.002
-  - first:
-      43: 4300000
-    second: Curve.001
-  - first:
-      43: 4300002
-    second: Curve
-  - first:
-      43: 4300004
-    second: Curve.002
+  internalIDToNameTable: []
   externalObjects: {}
   materials:
-    materialImportMode: 0
+    materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 0
+    materialLocation: 1
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -98,15 +35,15 @@ ModelImporter:
   meshes:
     lODScreenPercentages: []
     globalScale: 1
-    meshCompression: 3
+    meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
-    importVisibility: 0
-    importBlendShapes: 0
-    importCameras: 0
-    importLights: 0
-    fileIdsGeneration: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
@@ -122,21 +59,21 @@ ModelImporter:
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
-    secondaryUVMarginMethod: 0
+    secondaryUVMarginMethod: 1
     secondaryUVMinLightmapResolution: 40
     secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
   tangentSpace:
-    normalSmoothAngle: 0
-    normalImportMode: 1
+    normalSmoothAngle: 60
+    normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
-    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
   referencedClips: []
-  importAnimation: 0
+  importAnimation: 1
   humanDescription:
     serializedVersion: 3
     human: []
@@ -155,10 +92,10 @@ ModelImporter:
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   autoGenerateAvatarMappingIfUnspecified: 1
-  animationType: 0
+  animationType: 2
   humanoidOversampling: 1
   avatarSetup: 0
-  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
   additionalBone: 0
   userData: 
   assetBundleName: 

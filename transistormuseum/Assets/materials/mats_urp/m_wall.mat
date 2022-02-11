@@ -143,10 +143,10 @@ Material:
     - _RimPow: 4
     - _RimStep: 0.5
     - _SampleGI: 0
-    - _Shadow1Feather: 0
-    - _Shadow1Step: 0.5
+    - _Shadow1Feather: 0.225
+    - _Shadow1Step: 0.43
     - _Shadow2Feather: 0
-    - _Shadow2Step: 0.3
+    - _Shadow2Step: 0.348
     - _Shininess: 0
     - _Smoothness: 0.5
     - _SmoothnessSource: 0

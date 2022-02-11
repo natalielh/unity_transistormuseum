@@ -74,28 +74,36 @@ public class CameraManager : MonoBehaviour
 
         //move the node z-value up so we can look at it
         //first move all of them back to default z position
+        //for (int i = 0; i < userInteraction.maxIndex; i++)
+        //{
+        //    cubeManager.cubes[i].transform.position = new Vector3(
+        //        cubeManager.cubes[i].transform.position.x,
+        //        cubeManager.cubesOrigY,
+        //        cubeManager.cubesOrigZ);
+        //}
+
+
+        //in the case that the user is looping through objects too fast, that they don't have enough time to have lerped all the way back to its gallery space...
+        //if each isn't back where it's supposed to be in the gallery, move each
         for (int i = 0; i < userInteraction.maxIndex; i++)
         {
-            cubeManager.cubes[i].transform.position = new Vector3(
+
+            if (Vector3.Distance(cubeManager.cubes[i].transform.position, new Vector3(
                 cubeManager.cubes[i].transform.position.x,
                 cubeManager.cubesOrigY,
-                cubeManager.cubesOrigZ);
-            //cubeManager.cubes[i].transform.position = cubeManager.cubesOrigState[i].transform.position;
-            //cubeManager.cubes[i].transform.position.z = 3;
+                cubeManager.cubesOrigZ))
+                > 0.1f)
+            {
+                //lerp the old object out of camera view and back to the gallery display
+                StartCoroutine(LerpPosition(cubeManager.cubes[i], new Vector3(
+                    cubeManager.cubes[i].transform.position.x,
+                    cubeManager.cubesOrigY,
+                    cubeManager.cubesOrigZ),
+                    0.5f));
+            }
         }
 
 
-        //move the node z-value up so we can look at it
-        //first move all of them back to default z position
-        for (int i = 0; i < userInteraction.maxIndex; i++)
-        {
-            cubeManager.cubes[i].transform.position = new Vector3(
-                cubeManager.cubes[i].transform.position.x,
-                cubeManager.cubesOrigY,
-                cubeManager.cubesOrigZ);
-            //cubeManager.cubes[i].transform.position = cubeManager.cubesOrigState[i].transform.position;
-            //cubeManager.cubes[i].transform.position.z = 3;
-        }
 
         if (instantSnapCam)
         {
@@ -111,15 +119,25 @@ public class CameraManager : MonoBehaviour
             userInteraction.currentlyMoving = false;
 
         }
+
         else
         {
             //cam.transform.position = Vector3.Lerp();
             StartCoroutine(LerpPosition(cam, newCameraPos, 0.5f));
             Debug.Log("Lerping camera...");
+
+            //lerp the new object into camera view
             StartCoroutine(LerpPosition(cubeManager.cubes[userInteraction.nodeIndex], new Vector3(
                 cubeManager.cubes[userInteraction.nodeIndex].transform.position.x,
                 (defaultCameraPos.y - 0.7f),
                 (defaultCameraPos.z + 2)), 0.5f));
+
+            //lerp the old object out of camera view and back to the gallery display
+            StartCoroutine(LerpPosition(cubeManager.cubes[userInteraction.lastIndex], new Vector3(
+                cubeManager.cubes[userInteraction.lastIndex].transform.position.x,
+                cubeManager.cubesOrigY,
+                cubeManager.cubesOrigZ),
+                0.5f));
 
         }
 

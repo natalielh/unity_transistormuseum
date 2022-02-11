@@ -94,12 +94,16 @@ public class InfoTextMain : MonoBehaviour {
 			"In 1967, the microchip was introduced. The microchip was part of a touch-tone telephone set. The microchip was a set of electronic circuits on semiconductor material. It consists of many transistors that were fit into a small chip, thus resulting in circuits that were much cheaper, faster, and much smaller.";
 
 		descriptionArray[10] =
-			"1997 \n" +
+			"1986 \n" +
             "<b>Microprocessor</b> \n" +
 			"\n" +
 			"The transistor is simply an on/off switch controlled by electricity, but in the 1960s the invention of the integrated circuit allowed the combination of numerous transistors onto a single chip.\nOver the years the technology behind transistors has changed so that they could be made smaller and more could be fitted into microprocessors giving faster processors. This can be observed through the generations of integrated circuits. This technology continues to make advances in miniaturization in manufacturing transistors and microprocessors.";
 
-		descriptionArray[11] = "";
+		descriptionArray[11] =
+            "2000 \n" +
+            "<b>Microprocessor</b> \n" +
+            "\n" +
+            "64-bit processors became mainstream in the 2000s. Microprocessor clock speeds reached a ceiling because of the heat dissipation barrier. Instead of implementing expensive and impractical cooling systems, manufacturers turned to parallel computing in the form of the multi-core processor. Overclocking had its roots in the 1990s, but came into its own in the 2000s. Off-the-shelf cooling systems designed for overclocked processors became common, and the gaming PC had its advent as well. Over the decade, transistor counts increased by about an order of magnitude, a trend continued from previous decades. Process sizes decreased about fourfold, from 180 nm to 45 nm.";
 
 		descriptionArray[12] = "";
 

@@ -2697,3 +2697,715 @@ System memory in use after: 121.8 MB.
 Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 3397.
 Total: 2.672100 ms (FindLiveObjects: 0.304000 ms CreateObjectMapping: 0.105900 ms MarkObjects: 2.231200 ms  DeleteObjects: 0.030000 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 124.379605 seconds.
+  path: Assets/materials/mats_urp/m_floor.mat
+  artifactKey: Guid(d30d05c910acb174aa624d63f98b67e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/materials/mats_urp/m_floor.mat using Guid(d30d05c910acb174aa624d63f98b67e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06c5b276b93ae3f9efdec46d55be8d43') in 0.091529 seconds
+  Import took 0.096979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.963434 seconds.
+  path: Assets/materials/mats_urp/m_floor.mat
+  artifactKey: Guid(d30d05c910acb174aa624d63f98b67e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/materials/mats_urp/m_floor.mat using Guid(d30d05c910acb174aa624d63f98b67e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7659b2fb8184563651a4427050a90ba8') in 0.066113 seconds
+  Import took 0.072968 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.188291 seconds.
+  path: Assets/materials/mats_urp/m_floor.mat
+  artifactKey: Guid(d30d05c910acb174aa624d63f98b67e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/materials/mats_urp/m_floor.mat using Guid(d30d05c910acb174aa624d63f98b67e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2e7a08d1bf48708dccf67fe398257a0') in 0.071163 seconds
+  Import took 0.077177 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005966 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.226 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2617 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 121.6 MB.
+System memory in use after: 121.8 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 3401.
+Total: 2.591600 ms (FindLiveObjects: 0.369400 ms CreateObjectMapping: 0.106300 ms MarkObjects: 2.094400 ms  DeleteObjects: 0.020300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 763.061773 seconds.
+  path: Assets/models/1959_microchip.fbx
+  artifactKey: Guid(6a73aa7324435476e841917c1b65f53f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/1959_microchip.fbx using Guid(6a73aa7324435476e841917c1b65f53f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f327c5c143681dca04d96aaba0dd18b6') in 0.109556 seconds
+  Import took 0.115786 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004441 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.036 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2617 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 121.6 MB.
+System memory in use after: 121.8 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 3405.
+Total: 2.749900 ms (FindLiveObjects: 0.318300 ms CreateObjectMapping: 0.121200 ms MarkObjects: 2.284000 ms  DeleteObjects: 0.025400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1282.196296 seconds.
+  path: Assets/models/1959_microchip.fbx
+  artifactKey: Guid(6a73aa7324435476e841917c1b65f53f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/1959_microchip.fbx using Guid(6a73aa7324435476e841917c1b65f53f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '998d756e62dd72d1dab8f47366ba1db9') in 0.106319 seconds
+  Import took 0.112942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/models/1997_microprocessor_v2.fbx
+  artifactKey: Guid(696b7f018fa31f54e8e849f1ef88543a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/1997_microprocessor_v2.fbx using Guid(696b7f018fa31f54e8e849f1ef88543a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8973cf15d96a42f9b7371a870ae8c84d') in 0.043367 seconds
+  Import took 0.048239 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/models/1997_microprocessor.fbx
+  artifactKey: Guid(c954980aa8c69a64195c51108532d982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/1997_microprocessor.fbx using Guid(c954980aa8c69a64195c51108532d982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b730e61e3cbf022f1c082a91bf35ec9') in 0.031165 seconds
+  Import took 0.036986 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.649279 seconds.
+  path: Assets/models/1959_microchip.blend
+  artifactKey: Guid(025b4dce99782a549846ed7faaa7d904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/1959_microchip.blend using Guid(025b4dce99782a549846ed7faaa7d904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c3e1387197676e4a99892d7d950dafb') in 0.006014 seconds
+  Import took 0.011471 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/prefabs/new_trans_prefabs/1959_microchip.prefab
+  artifactKey: Guid(9b1a7bffd2ada43acb8660ac01ac7714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/new_trans_prefabs/1959_microchip.prefab using Guid(9b1a7bffd2ada43acb8660ac01ac7714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ca94b4a65493f16433dd3840e8e6ae2') in 0.005907 seconds
+  Import took 0.010623 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/models/1959_microchip.blend
+  artifactKey: Guid(025b4dce99782a549846ed7faaa7d904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/1959_microchip.blend using Guid(025b4dce99782a549846ed7faaa7d904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c3e1387197676e4a99892d7d950dafb') in 0.004896 seconds
+  Import took 0.009729 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/models/1997_microprocessor.blend
+  artifactKey: Guid(01a62762d2acaba4aa19261e1c312f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/1997_microprocessor.blend using Guid(01a62762d2acaba4aa19261e1c312f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86fbd559ca4f5848642988712f6810d8') in 0.006316 seconds
+  Import took 0.011376 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/prefabs/new_trans_prefabs/1959_microchip.prefab
+  artifactKey: Guid(9b1a7bffd2ada43acb8660ac01ac7714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/new_trans_prefabs/1959_microchip.prefab using Guid(9b1a7bffd2ada43acb8660ac01ac7714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ca94b4a65493f16433dd3840e8e6ae2') in 0.006192 seconds
+  Import took 0.011417 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.289662 seconds.
+  path: Assets/models/1997_microprocessor_v2.fbx
+  artifactKey: Guid(696b7f018fa31f54e8e849f1ef88543a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/1997_microprocessor_v2.fbx using Guid(696b7f018fa31f54e8e849f1ef88543a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a714003d9214947058707003af758a93') in 0.027717 seconds
+  Import took 0.034398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 95.932274 seconds.
+  path: Assets/models/1997_microprocessor_v2.fbx
+  artifactKey: Guid(696b7f018fa31f54e8e849f1ef88543a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/1997_microprocessor_v2.fbx using Guid(696b7f018fa31f54e8e849f1ef88543a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05d36597556277ed056a98453efeef4b') in 0.028219 seconds
+  Import took 0.034321 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.932634 seconds.
+  path: Assets/models/1997_microprocessor.blend
+  artifactKey: Guid(01a62762d2acaba4aa19261e1c312f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/1997_microprocessor.blend using Guid(01a62762d2acaba4aa19261e1c312f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88339989e475e235af4c62bc44217825') in 0.005593 seconds
+  Import took 0.010882 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024200 seconds.
+  path: Assets/models/1997_microprocessor.blend
+  artifactKey: Guid(01a62762d2acaba4aa19261e1c312f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/1997_microprocessor.blend using Guid(01a62762d2acaba4aa19261e1c312f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88339989e475e235af4c62bc44217825') in 0.004924 seconds
+  Import took 0.010765 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 118.626807 seconds.
+  path: Assets/models/1997_microprocessor.blend
+  artifactKey: Guid(01a62762d2acaba4aa19261e1c312f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/1997_microprocessor.blend using Guid(01a62762d2acaba4aa19261e1c312f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1989a2a6ca74a09a05b0380caa1def90') in 0.006065 seconds
+  Import took 0.012898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015535 seconds.
+  path: Assets/models/1997_microprocessor.blend
+  artifactKey: Guid(01a62762d2acaba4aa19261e1c312f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/1997_microprocessor.blend using Guid(01a62762d2acaba4aa19261e1c312f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1989a2a6ca74a09a05b0380caa1def90') in 0.007537 seconds
+  Import took 0.014679 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.321772 seconds.
+  path: Assets/models/1997_microprocessor_v2.fbx
+  artifactKey: Guid(696b7f018fa31f54e8e849f1ef88543a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/1997_microprocessor_v2.fbx using Guid(696b7f018fa31f54e8e849f1ef88543a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac48e0fa958ac24a1a7424859bbce73b') in 0.024262 seconds
+  Import took 0.029842 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015122 seconds.
+  path: Assets/models/1997_microprocessor_v2.fbx
+  artifactKey: Guid(696b7f018fa31f54e8e849f1ef88543a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/1997_microprocessor_v2.fbx using Guid(696b7f018fa31f54e8e849f1ef88543a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac48e0fa958ac24a1a7424859bbce73b') in 0.025342 seconds
+  Import took 0.031843 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.660898 seconds.
+  path: Assets/models/1997_microprocessor_v2.fbx
+  artifactKey: Guid(696b7f018fa31f54e8e849f1ef88543a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/1997_microprocessor_v2.fbx using Guid(696b7f018fa31f54e8e849f1ef88543a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28d8e6f94f13ad9e496ae14c54cbe836') in 0.024450 seconds
+  Import took 0.030434 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016700 seconds.
+  path: Assets/models/1997_microprocessor_v2.fbx
+  artifactKey: Guid(696b7f018fa31f54e8e849f1ef88543a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/1997_microprocessor_v2.fbx using Guid(696b7f018fa31f54e8e849f1ef88543a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28d8e6f94f13ad9e496ae14c54cbe836') in 0.024236 seconds
+  Import took 0.029705 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.440015 seconds.
+  path: Assets/models/1997_microprocessor_v2.fbx
+  artifactKey: Guid(696b7f018fa31f54e8e849f1ef88543a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/1997_microprocessor_v2.fbx using Guid(696b7f018fa31f54e8e849f1ef88543a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7481b1594e7f04349543e6aa5e6c55d') in 0.024781 seconds
+  Import took 0.030707 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017528 seconds.
+  path: Assets/models/1997_microprocessor_v2.fbx
+  artifactKey: Guid(696b7f018fa31f54e8e849f1ef88543a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/1997_microprocessor_v2.fbx using Guid(696b7f018fa31f54e8e849f1ef88543a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7481b1594e7f04349543e6aa5e6c55d') in 0.026215 seconds
+  Import took 0.031310 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 114.894048 seconds.
+  path: Assets/models/1997_microprocessor.blend
+  artifactKey: Guid(01a62762d2acaba4aa19261e1c312f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/1997_microprocessor.blend using Guid(01a62762d2acaba4aa19261e1c312f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f5417f0b3cbd3839b9ea0291d36fa7b') in 0.005538 seconds
+  Import took 0.011089 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/models/1997_microprocessor_v2.fbx
+  artifactKey: Guid(696b7f018fa31f54e8e849f1ef88543a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/1997_microprocessor_v2.fbx using Guid(696b7f018fa31f54e8e849f1ef88543a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88179ea8cd5dbb25dabc36bf2339173b') in 0.027295 seconds
+  Import took 0.032126 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.639007 seconds.
+  path: Assets/models/1997_microprocessor.fbx
+  artifactKey: Guid(c954980aa8c69a64195c51108532d982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/1997_microprocessor.fbx using Guid(c954980aa8c69a64195c51108532d982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfc1c90943ffbcdd90573b58fbfd867e') in 0.028366 seconds
+  Import took 0.033615 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014549 seconds.
+  path: Assets/models/1997_microprocessor.fbx
+  artifactKey: Guid(c954980aa8c69a64195c51108532d982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/1997_microprocessor.fbx using Guid(c954980aa8c69a64195c51108532d982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfc1c90943ffbcdd90573b58fbfd867e') in 0.023413 seconds
+  Import took 0.028687 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 125.232702 seconds.
+  path: Assets/materials/mats_urp/m_silver_dark.mat
+  artifactKey: Guid(0fe7ada8e56b97f49bcab74ae0905f11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/materials/mats_urp/m_silver_dark.mat using Guid(0fe7ada8e56b97f49bcab74ae0905f11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04c1c4dd0ed27170f7d161b192aa2c47') in 0.017245 seconds
+  Import took 0.022618 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004898 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.214 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2617 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 121.6 MB.
+System memory in use after: 121.8 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 3409.
+Total: 2.765200 ms (FindLiveObjects: 0.443300 ms CreateObjectMapping: 0.125100 ms MarkObjects: 2.167100 ms  DeleteObjects: 0.028500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 434.487465 seconds.
+  path: Assets/models/1967_microchip.blend
+  artifactKey: Guid(95db2abf579499446aeef89b2da9ad6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/1967_microchip.blend using Guid(95db2abf579499446aeef89b2da9ad6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd83fcb7f659b802eee78c29fdc13fb6') in 0.033115 seconds
+  Import took 0.038596 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/models/1997_microprocessor.blend
+  artifactKey: Guid(01a62762d2acaba4aa19261e1c312f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/1997_microprocessor.blend using Guid(01a62762d2acaba4aa19261e1c312f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b72007fccd656da8eee23d169d9d793') in 0.008863 seconds
+  Import took 0.013909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/models/1967_microchip_v2.fbx
+  artifactKey: Guid(67fb83c8c8b680945bb7d45a46fc75a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/1967_microchip_v2.fbx using Guid(67fb83c8c8b680945bb7d45a46fc75a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0309eeb6816fdeebc6cebe1dfdf339c') in 0.079882 seconds
+  Import took 0.086093 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.014250 seconds.
+  path: Assets/models/1967_microchip_v2.fbx
+  artifactKey: Guid(67fb83c8c8b680945bb7d45a46fc75a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/1967_microchip_v2.fbx using Guid(67fb83c8c8b680945bb7d45a46fc75a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b819395c273ce1b4957b772f9f842e97') in 0.025416 seconds
+  Import took 0.032019 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011510 seconds.
+  path: Assets/models/1967_microchip_v2.fbx
+  artifactKey: Guid(67fb83c8c8b680945bb7d45a46fc75a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/1967_microchip_v2.fbx using Guid(67fb83c8c8b680945bb7d45a46fc75a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b819395c273ce1b4957b772f9f842e97') in 0.028696 seconds
+  Import took 0.035140 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.036089 seconds.
+  path: Assets/models/1967_microchip_v2.fbx
+  artifactKey: Guid(67fb83c8c8b680945bb7d45a46fc75a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/1967_microchip_v2.fbx using Guid(67fb83c8c8b680945bb7d45a46fc75a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6fa69ec2e20b8e97947141ab3b92f19') in 0.022667 seconds
+  Import took 0.029225 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004929 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.036 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2617 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 121.5 MB.
+System memory in use after: 121.7 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 3413.
+Total: 3.029500 ms (FindLiveObjects: 0.342800 ms CreateObjectMapping: 0.120600 ms MarkObjects: 2.536300 ms  DeleteObjects: 0.028400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 244.342732 seconds.
+  path: Assets/prefabs/new_trans_prefabs/1910 vaccum tube.prefab
+  artifactKey: Guid(8351279aa74814c30bf561dac317e836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/new_trans_prefabs/1910 vaccum tube.prefab using Guid(8351279aa74814c30bf561dac317e836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42429fba012abe5d6b3b61f07c41a491') in 0.065069 seconds
+  Import took 0.071543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/prefabs/new_trans_prefabs/1946 vacuum tube.prefab
+  artifactKey: Guid(61beb7fcbd5cb4fe2a85b3f869295b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/new_trans_prefabs/1946 vacuum tube.prefab using Guid(61beb7fcbd5cb4fe2a85b3f869295b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4b32b55eda2069c95d877a124ca1d01') in 0.016106 seconds
+  Import took 0.021702 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/prefabs/new_trans_prefabs/1948 Transistor (1).prefab
+  artifactKey: Guid(54cb1b446e19548898fa255db61efe52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/new_trans_prefabs/1948 Transistor (1).prefab using Guid(54cb1b446e19548898fa255db61efe52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24ab192911300e666deda400f6b4a1ae') in 0.017811 seconds
+  Import took 0.022578 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/prefabs/new_trans_prefabs/1955 Transistor (1).prefab
+  artifactKey: Guid(6f2cf5829afaa4160a6f94aad9f262e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/new_trans_prefabs/1955 Transistor (1).prefab using Guid(6f2cf5829afaa4160a6f94aad9f262e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2ae5bc1f0aff82c77c01bdc443569e9') in 0.016098 seconds
+  Import took 0.021943 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/prefabs/new_trans_prefabs/1941 Transistor v2 (1).prefab
+  artifactKey: Guid(38eafce08dd584ec2b16b5ac5e2637d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/new_trans_prefabs/1941 Transistor v2 (1).prefab using Guid(38eafce08dd584ec2b16b5ac5e2637d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ca5d034c1a4a98389e1f29c8a57c347') in 0.016560 seconds
+  Import took 0.021284 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/prefabs/new_trans_prefabs/1997 transistor.prefab
+  artifactKey: Guid(be731ebdba00748688fbeb71e6977124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/new_trans_prefabs/1997 transistor.prefab using Guid(be731ebdba00748688fbeb71e6977124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe37c475d25b59c72918d2c6edd087b1') in 0.035600 seconds
+  Import took 0.044112 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/prefabs/new_trans_prefabs/1957 Transistor.prefab
+  artifactKey: Guid(cdb7470c32f7545faa1e5082eca41783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/new_trans_prefabs/1957 Transistor.prefab using Guid(cdb7470c32f7545faa1e5082eca41783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '186d1a33e2b36ad9017f760a26f424c0') in 0.013513 seconds
+  Import took 0.018369 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/prefabs/new_trans_prefabs/1967 transistor.prefab
+  artifactKey: Guid(9fa381077b3b342fe856304f82dcdb01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/new_trans_prefabs/1967 transistor.prefab using Guid(9fa381077b3b342fe856304f82dcdb01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e4b9539515a3d21db84c63c4a4285ff') in 0.016096 seconds
+  Import took 0.020603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/prefabs/new_trans_prefabs/1930 vacuum tube.prefab
+  artifactKey: Guid(893e91593af704d5a865f70a696e2864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/new_trans_prefabs/1930 vacuum tube.prefab using Guid(893e91593af704d5a865f70a696e2864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ef2facfb0688eff07e37dcc065a4c3e') in 0.016632 seconds
+  Import took 0.021890 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.012228 seconds.
+  path: Assets/models/1967_microchip_v2.fbx
+  artifactKey: Guid(67fb83c8c8b680945bb7d45a46fc75a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/1967_microchip_v2.fbx using Guid(67fb83c8c8b680945bb7d45a46fc75a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c81adf7efcaf92cfd37a9d4d1f258845') in 0.034188 seconds
+  Import took 0.040127 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.969000 seconds.
+  path: Assets/models/1967_microchip_v2.fbx
+  artifactKey: Guid(67fb83c8c8b680945bb7d45a46fc75a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/1967_microchip_v2.fbx using Guid(67fb83c8c8b680945bb7d45a46fc75a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bacd37e63df7f0ed276067af289a328b') in 0.014531 seconds
+  Import took 0.019394 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007512 seconds.
+  path: Assets/models/1967_microchip_v2.fbx
+  artifactKey: Guid(67fb83c8c8b680945bb7d45a46fc75a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/1967_microchip_v2.fbx using Guid(67fb83c8c8b680945bb7d45a46fc75a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bacd37e63df7f0ed276067af289a328b') in 0.014457 seconds
+  Import took 0.020719 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006211 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.080 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2617 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 122.3 MB.
+System memory in use after: 122.5 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 3419.
+Total: 4.966500 ms (FindLiveObjects: 0.410600 ms CreateObjectMapping: 0.118000 ms MarkObjects: 4.401800 ms  DeleteObjects: 0.034800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1200.024617 seconds.
+  path: Assets/models/2017_microprocessor.blend
+  artifactKey: Guid(f734c28662116e84ca9ede92e943784d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/2017_microprocessor.blend using Guid(f734c28662116e84ca9ede92e943784d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b027c064f63d69513b2a6ffedca5fad') in 0.048056 seconds
+  Import took 0.054216 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/models/2017_microprocessor.fbx
+  artifactKey: Guid(0098fbd653bebc742ad74065b4cc095f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/2017_microprocessor.fbx using Guid(0098fbd653bebc742ad74065b4cc095f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c352ffd626aa7495b8adbc5779db1ae') in 0.083423 seconds
+  Import took 0.088064 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 46.988673 seconds.
+  path: Assets/models/2017_microprocessor.blend
+  artifactKey: Guid(f734c28662116e84ca9ede92e943784d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/2017_microprocessor.blend using Guid(f734c28662116e84ca9ede92e943784d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb14d4f0dc1d28289e0542e075c77392') in 0.006187 seconds
+  Import took 0.012160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/models/2017_microprocessor.fbx
+  artifactKey: Guid(0098fbd653bebc742ad74065b4cc095f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/2017_microprocessor.fbx using Guid(0098fbd653bebc742ad74065b4cc095f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '550aad08397350568b60e3b1723dcd34') in 0.033411 seconds
+  Import took 0.039225 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004732 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.187 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2617 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 122.3 MB.
+System memory in use after: 122.5 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 3423.
+Total: 3.254400 ms (FindLiveObjects: 0.489300 ms CreateObjectMapping: 0.205300 ms MarkObjects: 2.535200 ms  DeleteObjects: 0.023700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 318.613928 seconds.
+  path: Assets/models/2017_microprocessor.fbx
+  artifactKey: Guid(0098fbd653bebc742ad74065b4cc095f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/2017_microprocessor.fbx using Guid(0098fbd653bebc742ad74065b4cc095f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6963068e9fe29feb05527049e8b3413a') in 0.133586 seconds
+  Import took 0.140149 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 147.545163 seconds.
+  path: Assets/materials/mats_urp/m_bronze.mat
+  artifactKey: Guid(ae875513c4a402d44926571d48d9c9aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/materials/mats_urp/m_bronze.mat using Guid(ae875513c4a402d44926571d48d9c9aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '343adbcdfe9ecaa8e0cc00257fb0ec5b') in 0.016062 seconds
+  Import took 0.021283 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.565769 seconds.
+  path: Assets/materials/mats_urp/m_bronze 1.mat
+  artifactKey: Guid(2b2376bab09ec0e47826cddc841c59c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/materials/mats_urp/m_bronze 1.mat using Guid(2b2376bab09ec0e47826cddc841c59c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29e23c6dfc5ab055cd823c9fbecc266c') in 0.016810 seconds
+  Import took 0.023742 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/materials/mats_urp/m_green.mat
+  artifactKey: Guid(ae875513c4a402d44926571d48d9c9aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/materials/mats_urp/m_green.mat using Guid(ae875513c4a402d44926571d48d9c9aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78ebe0f8a6f64c90b9657123bbbf18c6') in 0.015514 seconds
+  Import took 0.022095 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004382 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.056 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2617 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 122.3 MB.
+System memory in use after: 122.5 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 3427.
+Total: 2.733600 ms (FindLiveObjects: 0.383400 ms CreateObjectMapping: 0.107200 ms MarkObjects: 2.179700 ms  DeleteObjects: 0.062100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005697 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.042 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2617 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 122.3 MB.
+System memory in use after: 122.5 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 3430.
+Total: 3.138400 ms (FindLiveObjects: 0.711600 ms CreateObjectMapping: 0.162300 ms MarkObjects: 2.229500 ms  DeleteObjects: 0.033500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005929 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.126 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2617 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 122.3 MB.
+System memory in use after: 122.5 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 3433.
+Total: 3.262600 ms (FindLiveObjects: 0.546900 ms CreateObjectMapping: 0.288600 ms MarkObjects: 2.403600 ms  DeleteObjects: 0.022400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005107 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.057 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2617 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 122.3 MB.
+System memory in use after: 122.5 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 3436.
+Total: 3.112700 ms (FindLiveObjects: 0.527200 ms CreateObjectMapping: 0.128700 ms MarkObjects: 2.418100 ms  DeleteObjects: 0.037600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004564 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.032 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2617 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 122.3 MB.
+System memory in use after: 122.5 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 3439.
+Total: 3.056600 ms (FindLiveObjects: 0.498700 ms CreateObjectMapping: 0.120400 ms MarkObjects: 2.198700 ms  DeleteObjects: 0.181400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004420 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.020 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2617 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 122.3 MB.
+System memory in use after: 122.6 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 3442.
+Total: 2.742600 ms (FindLiveObjects: 0.515000 ms CreateObjectMapping: 0.141900 ms MarkObjects: 2.019800 ms  DeleteObjects: 0.064500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2087.025647 seconds.
+  path: Assets/textures/t_ui.png
+  artifactKey: Guid(bb87bdddf0dfa254583883a9f46a5db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/t_ui.png using Guid(bb87bdddf0dfa254583883a9f46a5db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76bb4b80b363cca35c63c40e29bc1b89') in 0.074160 seconds
+  Import took 0.079862 seconds .
+

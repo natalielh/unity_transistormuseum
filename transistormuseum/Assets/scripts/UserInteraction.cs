@@ -41,6 +41,7 @@ public class UserInteraction : MonoBehaviour {
                 currentlyMoving = true;
                 Debug.Log("currentlyMoving set to: " + currentlyMoving);
                 cameraManager.MoveObjects();
+                BeepAudioSource.Play();
             }
             else if (nodeIndex > minIndex && ((Input.GetAxisRaw("Horizontal") < 0) || (Input.GetAxisRaw("Vertical") < 0))) {
                 // if you press LEFT or DOWN
@@ -51,17 +52,18 @@ public class UserInteraction : MonoBehaviour {
                 currentlyMoving = true;
                 Debug.Log("currentlyMoving set to: " + currentlyMoving);
                 cameraManager.MoveObjects();
+                BeepAudioSource.Play();
             }
-            else if (Input.GetMouseButtonDown(0) || Input.GetMouseButtonDown(0))
+            else if (Input.GetMouseButtonDown(0) || Input.GetMouseButtonDown(1) || Input.GetKeyDown(KeyCode.Space))
             {
                 if (nodeIndex == maxIndex) nodeIndex = 0;
                 lastIndex = nodeIndex;
                 nodeIndex++;
                 currentlyMoving = true;
                 cameraManager.MoveObjects();
+                BeepAudioSource.Play();
             }
 
-            BeepAudioSource.Play();
 
 //			if(nodeIndex < minIndex){
 //				nodeIndex = minIndex;

@@ -1033,7 +1033,7 @@ MonoBehaviour:
   - {fileID: 1246264617}
   - {fileID: 999736558}
   - {fileID: 0}
-  spinSpeed: 200
+  spinSpeed: 250
   spinCurrentCubeOn: 1
 --- !u!1 &112711545
 GameObject:
@@ -2215,14 +2215,14 @@ MonoBehaviour:
     m_MaxSize: 177
     m_Alignment: 3
     m_AlignByGeometry: 1
-    m_RichText: 0
+    m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "Welcome to the Transistor Museum!\n\nNavigation:\n\u2022 Arrow keys (left
-    and right)\n\u2022 A and D keys (left and right)\n\u2022 Mouse (horizontal rotation)\n\nESC
-    to quit\n\nCreated by:\nVivian Fu\nErika Davis\nNatalie Le Huenen\n\nThanks for
-    playing!"
+  m_Text: "<b>Welcome to the Transistor Museum!</b>\n\n<b>Navigation:</b>\n\u2022
+    Arrow keys (left and right)\n\u2022 A and D keys (left and right)\n\u2022 Mouse
+    (horizontal rotation)\n\u2022 ESC to quit\n\n<b>Created by:</b>\nVivian Fu\nErika
+    Davis\nNatalie Le Huenen\n\nThanks for playing!"
 --- !u!222 &624158873
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3369,7 +3369,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 914425607}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
   m_Name: 
@@ -5461,7 +5461,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4067995521139238, guid: b139f7a945e3540eeaffb355a7e65306, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 1.1
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 4067995521139238, guid: b139f7a945e3540eeaffb355a7e65306, type: 2}
       propertyPath: m_LocalPosition.z

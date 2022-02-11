@@ -10,7 +10,7 @@ public class CubeManager : MonoBehaviour {
 	public GameObject[] cubes;
 	public GameObject[] cubesOrigState;
 
-	[Range(20.0f,200.0f)]
+	[Range(20.0f,400.0f)]
 	public float spinSpeed;
 
 	public bool spinCurrentCubeOn = true;

@@ -32,6 +32,7 @@ public class UserInteraction : MonoBehaviour {
 	void Update () {
 
 		if(Input.anyKeyDown && inputEnabled){
+
             if (nodeIndex < maxIndex && ((Input.GetAxisRaw("Horizontal") > 0) || (Input.GetAxisRaw("Vertical") > 0))) {
                 // if you press RIGHT or UP
                 // move the current viewed object index right
@@ -43,7 +44,9 @@ public class UserInteraction : MonoBehaviour {
                 cameraManager.MoveObjects();
                 BeepAudioSource.Play();
             }
-            else if (nodeIndex > minIndex && ((Input.GetAxisRaw("Horizontal") < 0) || (Input.GetAxisRaw("Vertical") < 0))) {
+
+            else if (nodeIndex > minIndex && ((Input.GetAxisRaw("Horizontal") < 0) || (Input.GetAxisRaw("Vertical") < 0)))
+            {
                 // if you press LEFT or DOWN
                 // move the current viewed object index left
                 lastIndex = nodeIndex;
@@ -54,6 +57,23 @@ public class UserInteraction : MonoBehaviour {
                 cameraManager.MoveObjects();
                 BeepAudioSource.Play();
             }
+
+
+            //if (nodeIndex < maxIndex && ((Input.GetAxisRaw("Horizontal") != 0) || (Input.GetAxisRaw("Vertical") != 0)))
+            //{
+            //    lastIndex = nodeIndex;
+
+            //    nodeIndex += (int)Input.GetAxisRaw("Horizontal");
+            //    nodeIndex += (int)Input.GetAxisRaw("Vertical");
+
+            //    currentlyMoving = true;
+            //    Debug.Log("currentlyMoving set to: " + currentlyMoving);
+            //    cameraManager.MoveObjects();
+            //    BeepAudioSource.Play();
+            //}
+
+
+
             else if (Input.GetMouseButtonDown(0) || Input.GetMouseButtonDown(1) || Input.GetKeyDown(KeyCode.Space))
             {
                 if (nodeIndex == maxIndex) nodeIndex = 0;

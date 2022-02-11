@@ -14,6 +14,8 @@ public class DebugText : MonoBehaviour {
 	void Start () {
 		userInteraction = GameObject.Find("GameController").GetComponent<UserInteraction>();
 		screenText = GetComponent<Text>();
+        screenText.enabled = false;
+
 //		indexMessageString =
 //			"PRESS F TO SHOW/HIDE THIS TEXT \n" +
 //			"CURRENT DISPLAY INDEX: "

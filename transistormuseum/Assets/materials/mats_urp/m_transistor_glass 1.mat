@@ -21,16 +21,17 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: m_transistor_glass 1
-  m_Shader: {fileID: 4800000, guid: 650dd9526735d5b46b79224bc6e94025, type: 3}
-  m_ShaderKeywords: 
+  m_Shader: {fileID: 4800000, guid: 1d6e561d2a2bdae46a0884077d1708ba, type: 3}
+  m_ShaderKeywords: _BLENDRIM _EMISSION _ENVIRONMENTREFLECTIONS_OFF _RIMLIGHT _SPECULAR_SETUP
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 1
-  m_DoubleSidedGI: 1
-  m_CustomRenderQueue: 2950
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3000
   stringTagMap:
     RenderType: Transparent
   disabledShaderPasses:
   - SHADOWCASTER
+  - Outline
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -46,6 +47,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _ClipMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -58,7 +63,15 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _DiffuseRampMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _InShadowMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -90,6 +103,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _SpecularShiftMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -107,6 +124,7 @@ Material:
     - _AlphaClip: 0
     - _Blend: 0
     - _BlendOp: 0
+    - _BlendRim: 1
     - _BumpScale: 1
     - _CameraFadingEnabled: 0
     - _CameraFarFadeDistance: 2
@@ -114,10 +132,11 @@ Material:
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
     - _ColorMode: 4
-    - _Cull: 1
+    - _Cull: 2
     - _Cutoff: 0.451
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
+    - _DiffuseRampV: 0
     - _DistortionBlend: 0.5
     - _DistortionEnabled: 0
     - _DistortionStrength: 1
@@ -125,6 +144,12 @@ Material:
     - _DstBlend: 10
     - _Emission: 0
     - _EnableExternalAlpha: 0
+    - _EnableHairSpecular: 0
+    - _EnableInShadowMap: 0
+    - _EnableOutline: 0
+    - _EnableRampMap: 0
+    - _EnableRim: 1
+    - _EnableStencil: 0
     - _EnvironmentReflections: 0
     - _FlipbookBlending: 0
     - _FlipbookMode: 0
@@ -137,10 +162,13 @@ Material:
     - _Glossiness: 0
     - _GlossinessSource: 0
     - _GlossyReflections: 0
+    - _InShadowMapStrength: 1
+    - _InverseClipMask: 0
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Opacity: 1
+    - _OutlineWidth: 0.5
     - _Parallax: 0.005
     - _QueueOffset: -50
     - _Ramp0: 0.2
@@ -148,9 +176,17 @@ Material:
     - _RampSmoothness: 0.046
     - _RampTriple: 1
     - _ReceiveShadows: 1
+    - _RenderQueue: 3000
+    - _RimFeather: 0
+    - _RimPow: 1.48
+    - _RimStep: 0.238
     - _SampleGI: 0
+    - _Shadow1Feather: 0
+    - _Shadow1Step: 0.5
+    - _Shadow2Feather: 0
+    - _Shadow2Step: 0.3
     - _Shininess: 0
-    - _Smoothness: 1
+    - _Smoothness: 0.324
     - _SmoothnessSource: 0
     - _SmoothnessTextureChannel: 0
     - _SoftParticlesEnabled: 0
@@ -158,30 +194,46 @@ Material:
     - _SoftParticlesNearFadeDistance: 0
     - _SpecSource: 0
     - _Specular: 1
-    - _SpecularHighlights: 0
+    - _Specular2Mul: 0.5
+    - _SpecularFeather: 0
+    - _SpecularHighlights: 1
     - _SpecularOpacity: 1
+    - _SpecularShift1: 0
+    - _SpecularShift2: 0
+    - _SpecularShiftIntensity: 1
     - _SpecularSize: 0.694
     - _SpecularSmoothness: 0.293
+    - _SpecularStep: 0.5
     - _SrcBlend: 5
+    - _StencilChannel: 1
+    - _StencilComp: 0
+    - _StencilOp: 0
+    - _StencilType: 0
     - _Surface: 1
+    - _SurfaceType: 1
     - _UseColorMap: 0
     - _UseEmissiveMap: 0
     - _UseMetallicMap: 0
     - _UseNormalMap: 0
     - _UseOpacityMap: 0
     - _UseRoughnessMap: 0
+    - _UseSmoothNormal: 0
     - _WindQuality: 0
-    - _WorkflowMode: 1
+    - _WorkflowMode: 0
     - _ZWrite: 0
     m_Colors:
-    - _BaseColor: {r: 0, g: 0.12346173, b: 0.4056604, a: 0.30588236}
+    - _BaseColor: {r: 0, g: 0.12346173, b: 0.4056604, a: 0.49019608}
     - _BaseColorAddSubDiff: {r: -1, g: 1, b: 0, a: 0}
     - _CameraFadeParams: {r: 0, g: Infinity, b: 0, a: 0}
     - _Color: {r: 1, g: 0.6273585, b: 0.6273585, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 0}
     - _Flip: {r: 1, g: 1, b: 1, a: 1}
     - _HueVariation: {r: 1, g: 0.5, b: 0, a: 0.1}
+    - _OutlineColor: {r: 0, g: 0, b: 0, a: 0}
     - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
+    - _RimColor: {r: 1, g: 0.94919443, b: 0.7877358, a: 1}
+    - _Shadow1Color: {r: 0, g: 0.059626333, b: 0.1981132, a: 1}
+    - _Shadow2Color: {r: 0, g: 0, b: 0, a: 0}
     - _ShadowTint: {r: 0.9433962, g: 0.49044564, b: 0.23584905, a: 1}
     - _SoftParticleFadeParams: {r: 0, g: 0, b: 0, a: 0}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}

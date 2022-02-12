@@ -42,7 +42,7 @@ public class CubeManager : MonoBehaviour {
 
 		if(spinCurrentCubeOn){
 
-			cubes[userInteraction.nodeIndex].transform.Rotate(Vector3.up, (Input.mousePosition.x-(Screen.width/2))/Screen.width * spinSpeed * Time.deltaTime);	//HORIZ spinning
+			cubes[userInteraction.nodeIndex].transform.Rotate(Vector3.up, (Input.mousePosition.x-(Screen.width/2))/Screen.width * spinSpeed * Time.deltaTime * -1.0f);	//HORIZ spinning
 			//cubes[userInteraction.nodeIndex].transform.Rotate(Vector3.right, (Input.mousePosition.y-(Screen.height/2)) * spinSpeed * Time.deltaTime);	//VERT spinning
 		}
 	}	// end of update

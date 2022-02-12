@@ -149,7 +149,7 @@ Material:
     - _ReceiveShadows: 1
     - _RenderQueue: 2000
     - _RimFeather: 0.059
-    - _RimPow: 2.54
+    - _RimPow: 2.41
     - _RimStep: 0.5
     - _Shadow1Feather: 0
     - _Shadow1Step: 0.672
@@ -183,7 +183,7 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _OutlineColor: {r: 0, g: 0.002256956, b: 0.38679248, a: 0}
-    - _RimColor: {r: 0.29411766, g: 0.27058825, b: 0.49803925, a: 1}
+    - _RimColor: {r: 0.36124963, g: 0.2951673, b: 0.9339623, a: 1}
     - _Shadow1Color: {r: 0.07262371, g: 0.12667766, b: 0.3018868, a: 1}
     - _Shadow2Color: {r: 0.032128863, g: 0.05172689, b: 0.3584906, a: 0}
     - _ShadowTint: {r: 0, g: 0.052215908, b: 0.3207547, a: 1}

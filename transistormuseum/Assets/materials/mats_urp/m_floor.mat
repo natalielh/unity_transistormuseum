@@ -163,7 +163,7 @@ Material:
     - _OutlineColor: {r: 0, g: 0, b: 0, a: 0}
     - _RimColor: {r: 1, g: 1, b: 1, a: 1}
     - _Shadow1Color: {r: 0.20784314, g: 0.015686275, b: 0.07209255, a: 0.5}
-    - _Shadow2Color: {r: 0.122641504, g: 0, b: 0.10308029, a: 0}
+    - _Shadow2Color: {r: 0.11994261, g: 0, b: 0.12156863, a: 0}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
   m_BuildTextureStacks: []
 --- !u!114 &3393265634562429149

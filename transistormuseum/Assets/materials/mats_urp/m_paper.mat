@@ -22,15 +22,14 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: m_paper
   m_Shader: {fileID: 4800000, guid: 1d6e561d2a2bdae46a0884077d1708ba, type: 3}
-  m_ShaderKeywords: _BLENDRIM
+  m_ShaderKeywords: _BLENDRIM _SPECULARHIGHLIGHTS_OFF
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: 2000
   stringTagMap:
     RenderType: Opaque
-  disabledShaderPasses:
-  - Outline
+  disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -123,7 +122,7 @@ Material:
     - _Emission: 0
     - _EnableHairSpecular: 0
     - _EnableInShadowMap: 0
-    - _EnableOutline: 0
+    - _EnableOutline: 1
     - _EnableRampMap: 0
     - _EnableRim: 0
     - _EnableStencil: 0
@@ -140,7 +139,7 @@ Material:
     - _InverseClipMask: 0
     - _Metallic: 0
     - _OcclusionStrength: 1
-    - _OutlineWidth: 1
+    - _OutlineWidth: 0.5
     - _Parallax: 0.005
     - _QueueOffset: 0
     - _Ramp0: 0
@@ -152,16 +151,16 @@ Material:
     - _RimFeather: 0
     - _RimPow: 4
     - _RimStep: 0.5
-    - _Shadow1Feather: 0
-    - _Shadow1Step: 0.5
+    - _Shadow1Feather: 0.002
+    - _Shadow1Step: 0.586
     - _Shadow2Feather: 0
     - _Shadow2Step: 0.3
-    - _Smoothness: 0.5
+    - _Smoothness: 0
     - _SmoothnessTextureChannel: 0
     - _Specular: 1
     - _Specular2Mul: 0.5
     - _SpecularFeather: 0
-    - _SpecularHighlights: 1
+    - _SpecularHighlights: 0
     - _SpecularOpacity: 0.25
     - _SpecularShift1: 0
     - _SpecularShift2: 0
@@ -180,13 +179,13 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0.81891733, b: 0.6650944, a: 1}
+    - _BaseColor: {r: 1, g: 0.6678847, b: 0.41037738, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _OutlineColor: {r: 0, g: 0, b: 0, a: 0}
+    - _OutlineColor: {r: 0, g: 0.003921569, b: 0.3882353, a: 0}
     - _RimColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Shadow1Color: {r: 0.7830189, g: 0.51082516, b: 0.114498034, a: 0.5}
-    - _Shadow2Color: {r: 0.735849, g: 0.27582425, b: 0.05206478, a: 0}
+    - _Shadow1Color: {r: 0.8679245, g: 0.56568956, b: 0.3234247, a: 0.5}
+    - _Shadow2Color: {r: 0.7372549, g: 0.37401155, b: 0.050980408, a: 0}
     - _ShadowTint: {r: 0.9433962, g: 0.49044564, b: 0.23584905, a: 1}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
   m_BuildTextureStacks: []

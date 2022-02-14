@@ -73,7 +73,7 @@ public class BrightnessToggle : MonoBehaviour
 
         while (time < 1)
         {
-            singleLight.color = Color.Lerp(new Color(1, 1, 1), new Color(1, 1, 1), time);
+            singleLight.color = Color.Lerp(new Color(1, 1, 1), new Color(0.7f, 0.59f, 1), time);
             bgImg.color = Color.Lerp(new Color(1, 0.93f, 0.74f, 0.33f), new Color(0.1f, 0.02f, 0, 0.33f), time);
             descriptionText.color = Color.Lerp(new Color(0.37f, 0, 0.28f), new Color(1, 0.99f, 0.93f), time);
 

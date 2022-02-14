@@ -1,20 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-4651219013221438143
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 532a2d55fecff451d88f231b584cd0d1, type: 3}
-  m_Name: NewRenderOutlineFeature
-  m_EditorClassIdentifier: 
-  m_Active: 1
-  featureSetting:
-    renderPassEvent: 500
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28,9 +13,8 @@ MonoBehaviour:
   m_Name: ForwardRenderer
   m_EditorClassIdentifier: 
   m_RendererFeatures:
-  - {fileID: -4651219013221438143}
   - {fileID: 5729133597076313299}
-  m_RendererFeatureMap: 41ad6460f38c73bfd3547dfca6f8814f
+  m_RendererFeatureMap: d3547dfca6f8814f
   postProcessData: {fileID: 11400000, guid: 41439944d30ece34e96484bdb6645b55, type: 2}
   xrSystemData: {fileID: 11400000, guid: 60e1133243b97e347b653163a8c01b64, type: 2}
   shaders:
@@ -60,6 +44,26 @@ MonoBehaviour:
   m_ShadowTransparentReceive: 1
   m_RenderingMode: 0
   m_AccurateGbufferNormals: 0
+--- !u!114 &1642242338310340916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fe3225a96cb7b84da84e2393573f819, type: 3}
+  m_Name: NewKawaseBlur
+  m_EditorClassIdentifier: 
+  m_Active: 1
+  settings:
+    renderPassEvent: 1000
+    blurMaterial: {fileID: 2100000, guid: 5126dd47034a14c498d25658b68c1433, type: 2}
+    blurPasses: 7
+    downsample: 3
+    copyToFramebuffer: 1
+    targetName: _blurTexture
 --- !u!114 &5729133597076313299
 MonoBehaviour:
   m_ObjectHideFlags: 0

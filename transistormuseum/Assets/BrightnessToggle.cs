@@ -53,13 +53,17 @@ public class BrightnessToggle : MonoBehaviour
 
     public IEnumerator BrightenSequence()
     {
+        cSingleLight = singleLight.color;
+        cBgImg = bgImg.color;
+        cDescriptionText = descriptionText.color;
+
         float time = 0;
 
         while (time < 1)
         {
-            singleLight.color = Color.Lerp(new Color(0.7f, 0.59f, 1), new Color(1, 1, 1), time);
-            bgImg.color = Color.Lerp(new Color(0.1f, 0.02f, 0, 0.33f), new Color(1, 0.93f, 0.74f, 0.33f), time);
-            descriptionText.color = Color.Lerp(new Color(1, 0.99f, 0.93f), new Color(0.37f, 0, 0.28f), time);
+            singleLight.color = Color.Lerp(cSingleLight, new Color(1, 1, 1), time);
+            bgImg.color = Color.Lerp(cBgImg, new Color(1, 0.93f, 0.74f, 0.33f), time);
+            descriptionText.color = Color.Lerp(cDescriptionText, new Color(0.37f, 0, 0.28f), time);
 
             time += Time.deltaTime;
             yield return null;
@@ -69,13 +73,17 @@ public class BrightnessToggle : MonoBehaviour
 
     public IEnumerator DarkenSequence()
     {
+        cSingleLight = singleLight.color;
+        cBgImg = bgImg.color;
+        cDescriptionText = descriptionText.color;
+
         float time = 0;
 
         while (time < 1)
         {
-            singleLight.color = Color.Lerp(new Color(1, 1, 1), new Color(0.7f, 0.59f, 1), time);
-            bgImg.color = Color.Lerp(new Color(1, 0.93f, 0.74f, 0.33f), new Color(0.1f, 0.02f, 0, 0.33f), time);
-            descriptionText.color = Color.Lerp(new Color(0.37f, 0, 0.28f), new Color(1, 0.99f, 0.93f), time);
+            singleLight.color = Color.Lerp(cSingleLight, new Color(0.34f, 0.17f, 0.64f), time);
+            bgImg.color = Color.Lerp(cBgImg, new Color(0.1f, 0.02f, 0, 0.33f), time);
+            descriptionText.color = Color.Lerp(cDescriptionText, new Color(1, 0.99f, 0.93f), time);
 
             time += Time.deltaTime;
             yield return null;

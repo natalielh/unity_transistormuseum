@@ -22,7 +22,6 @@ public class UserInteraction : MonoBehaviour {
 	void Start () {
 
 		inputEnabled = true;
-		displayDebugText = true;
 
 		currentlyMoving = false;
 		
@@ -74,7 +73,7 @@ public class UserInteraction : MonoBehaviour {
 
 
 
-            else if (Input.GetMouseButtonDown(0) || Input.GetMouseButtonDown(1) || Input.GetKeyDown(KeyCode.Space))
+            else if (Input.GetMouseButtonDown(1) || Input.GetKeyDown(KeyCode.Space))
             {
                 if (nodeIndex == maxIndex) nodeIndex = 0;
                 lastIndex = nodeIndex;
@@ -90,7 +89,7 @@ public class UserInteraction : MonoBehaviour {
 //				Debug.Log("The node index was lowered below bottom threshold, it was reset to 0 | nodeIndex = " + nodeIndex);
 //			}
 
-            if (Input.GetKeyDown(KeyCode.F)) {
+            if (Input.GetKeyDown(KeyCode.F) || Input.GetKeyDown(KeyCode.F1)) {
 				displayDebugText = !displayDebugText;	// reverses the boolean
 			}
 

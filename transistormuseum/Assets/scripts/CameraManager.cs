@@ -45,10 +45,6 @@ public class CameraManager : MonoBehaviour
         }
         cam.transform.rotation = Quaternion.Euler(defaultCameraRot);    // camera rotation is also set to default
 
-        //		oldCameraPos = cam.transform.position;
-        //		newCameraPos = oldCameraPos;
-
-
 
 
         // (this code is repeated below too)
@@ -71,17 +67,6 @@ public class CameraManager : MonoBehaviour
             cam.transform.position.y,
             cam.transform.position.z
         );  // this is the camera position we will be going to
-
-
-        //move the node z-value up so we can look at it
-        //first move all of them back to default z position
-        //for (int i = 0; i < userInteraction.maxIndex; i++)
-        //{
-        //    cubeManager.cubes[i].transform.position = new Vector3(
-        //        cubeManager.cubes[i].transform.position.x,
-        //        cubeManager.cubesOrigY,
-        //        cubeManager.cubesOrigZ);
-        //}
 
 
         //in the case that the user is looping through objects too fast, that they don't have enough time to have lerped all the way back to its gallery space...
@@ -123,19 +108,9 @@ public class CameraManager : MonoBehaviour
 
             StartCoroutine(LerpPosition(cubeManager.cubes[userInteraction.nodeIndex], new Vector3(
                 cubeManager.cubes[userInteraction.nodeIndex].transform.position.x,
-                (defaultCameraPos.y - 0.7f),
+                (defaultCameraPos.y - 0.85f),
                 (defaultCameraPos.z + 2)), 0.5f));
 
-
-            //lerp the old object out of camera view and back to the gallery display
-
-            //StartCoroutine(LerpPosition(cubeManager.cubes[userInteraction.lastIndex], new Vector3(
-            //    cubeManager.cubes[userInteraction.lastIndex].transform.position.x,
-            //    //cubeManager.cubesOrigY,
-            //    cubeManager.cubesOrigPos[userInteraction.lastIndex].y,
-            //    //cubeManager.cubesOrigZ),
-            //    cubeManager.cubesOrigPos[userInteraction.lastIndex].z),
-            //    0.5f));
 
             StartCoroutine(LerpPosition(cubeManager.cubes[userInteraction.lastIndex], cubeManager.cubesOrigPos[userInteraction.lastIndex], 0.5f));
 

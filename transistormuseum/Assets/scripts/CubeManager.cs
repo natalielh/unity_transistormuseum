@@ -9,7 +9,7 @@ public class CubeManager : MonoBehaviour {
 	public GameObject cam;
 	public GameObject[] cubes;
 	public Vector3[] cubesOrigPos;
-    public Transform[] cubesOrigState;
+    //public Transform[] cubesOrigState;
     //public GameObject[] cubesOrigState;
 
     [Range(20.0f,400.0f)]
@@ -29,13 +29,10 @@ public class CubeManager : MonoBehaviour {
 		userInteraction.maxIndex = cubes.Length - 1;	// the max index is set to the number of cubes (items) in the array for switching between them
 		// (needed to add -1 because C# Array.Length returns the number of items in the array, but the indexing begins at 0 so the max index OVERFLOWS)
 
-		//cubesOrigState = new GameObject[userInteraction.maxIndex];
-		//cubesOrigState = cubes;
 
-        cubesOrigPos = new Vector3[userInteraction.maxIndex];
-        cubesOrigState = new Transform[userInteraction.maxIndex];
+        cubesOrigPos = new Vector3[cubes.Length];
 
-        for (int i = 0; i < userInteraction.maxIndex; i++)
+        for (int i = 0; i < (cubes.Length); i++)
         {
             //cubesOrigState[i] = cubes[i].transform;
             cubesOrigPos[i].x = cubes[i].transform.position.x;

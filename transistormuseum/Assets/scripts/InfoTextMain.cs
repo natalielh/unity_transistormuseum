@@ -30,9 +30,7 @@ public class InfoTextMain : MonoBehaviour {
             "• ESC to quit \n" +
 			"\n" +
             "<b>Created by:</b> \n" +
-			"Vivian Fu \n" +
-			"Erika Davis \n" +
-			"Natalie Le Huenen \n" +
+			"Natalie LH \n" +
 			"\n" +
 			"Thanks for playing!";
 
@@ -129,12 +127,19 @@ public class InfoTextMain : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void LateUpdate () {
+	//void LateUpdate () {
 
-		if(Input.anyKey){
-			mainText.text = descriptionArray[userInteraction.nodeIndex];
+	//	//if(Input.anyKey){
+	//		mainText.text = descriptionArray[userInteraction.nodeIndex];
 
-		}
+	//	//}
 
-	}
+	//}
+
+
+    public void UpdateText()
+    {
+        mainText.text = descriptionArray[userInteraction.nodeIndex];
+    }
+
 }

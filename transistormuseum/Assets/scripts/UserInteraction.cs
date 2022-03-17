@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class UserInteraction : MonoBehaviour {
 
+    public InfoTextMain infoTextMain;
+
     public CameraManager cameraManager;
     public AudioSource BeepAudioSource;
 
@@ -33,28 +35,12 @@ public class UserInteraction : MonoBehaviour {
 		if(Input.anyKeyDown && inputEnabled){
 
             if (nodeIndex < maxIndex && ((Input.GetAxisRaw("Horizontal") > 0) || (Input.GetAxisRaw("Vertical") > 0))) {
-                // if you press RIGHT or UP
-                // move the current viewed object index right
-                lastIndex = nodeIndex;
-                nodeIndex++;
-                Debug.Log("The node index was INcremented(+) | nodeIndex = " + nodeIndex);
-                currentlyMoving = true;
-                Debug.Log("currentlyMoving set to: " + currentlyMoving);
-                cameraManager.MoveObjects();
-                BeepAudioSource.Play();
+                MoveRight();
             }
 
             else if (nodeIndex > minIndex && ((Input.GetAxisRaw("Horizontal") < 0) || (Input.GetAxisRaw("Vertical") < 0)))
             {
-                // if you press LEFT or DOWN
-                // move the current viewed object index left
-                lastIndex = nodeIndex;
-                nodeIndex--;
-                Debug.Log("The node index was DEcremented(-) | nodeIndex = " + nodeIndex);
-                currentlyMoving = true;
-                Debug.Log("currentlyMoving set to: " + currentlyMoving);
-                cameraManager.MoveObjects();
-                BeepAudioSource.Play();
+                MoveLeft();
             }
 
 
@@ -81,6 +67,7 @@ public class UserInteraction : MonoBehaviour {
                 currentlyMoving = true;
                 cameraManager.MoveObjects();
                 BeepAudioSource.Play();
+                infoTextMain.UpdateText();
             }
 
 
@@ -104,4 +91,44 @@ public class UserInteraction : MonoBehaviour {
 
 
 	} // end of update loop
+
+
+
+    public void MoveLeft()
+    {
+        if (nodeIndex > minIndex)
+        {
+            // if you press LEFT or DOWN
+            // move the current viewed object index left
+            lastIndex = nodeIndex;
+            nodeIndex--;
+            Debug.Log("The node index was DEcremented(-) | nodeIndex = " + nodeIndex);
+            currentlyMoving = true;
+            Debug.Log("currentlyMoving set to: " + currentlyMoving);
+            cameraManager.MoveObjects();
+            BeepAudioSource.Play();
+            infoTextMain.UpdateText();
+        }
+        
+    }
+
+    public void MoveRight()
+    {
+        if (nodeIndex < maxIndex)
+        {
+            // if you press RIGHT or UP
+            // move the current viewed object index right
+            lastIndex = nodeIndex;
+            nodeIndex++;
+            Debug.Log("The node index was INcremented(+) | nodeIndex = " + nodeIndex);
+            currentlyMoving = true;
+            Debug.Log("currentlyMoving set to: " + currentlyMoving);
+            cameraManager.MoveObjects();
+            BeepAudioSource.Play();
+            infoTextMain.UpdateText();
+        }
+        
+    }
+
+
 }

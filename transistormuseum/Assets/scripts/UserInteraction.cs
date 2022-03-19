@@ -80,12 +80,13 @@ public class UserInteraction : MonoBehaviour {
 				displayDebugText = !displayDebugText;	// reverses the boolean
 			}
 
-			if (Input.GetKeyDown(KeyCode.Escape)) {
-				// press ESC to quit the application
-				Debug.Log("ESC key detected, quitting application...");
-				Application.Quit();
-			}
-		}	// end of logic for checking input
+            if (Input.GetKeyDown(KeyCode.Escape))
+            {
+                // press ESC to quit the application
+                Debug.Log("ESC key detected, quitting application...");
+                Application.Quit();
+            }
+        }	// end of logic for checking input
 
 
 

@@ -14,6 +14,8 @@ public class DebugText : MonoBehaviour {
 	void Start () {
 		userInteraction = GameObject.Find("GameController").GetComponent<UserInteraction>();
 		screenText = GetComponent<Text>();
+        //screenText.enabled = false;
+
 //		indexMessageString =
 //			"PRESS F TO SHOW/HIDE THIS TEXT \n" +
 //			"CURRENT DISPLAY INDEX: "
@@ -22,7 +24,8 @@ public class DebugText : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if(Input.anyKeyDown){
+		if(Input.anyKeyDown)
+        {
 			
 //			screenText.text = indexMessageString + "[" + userInteraction.nodeIndex + "]";
 			screenText.text =
@@ -30,7 +33,7 @@ public class DebugText : MonoBehaviour {
 				"*PRESS F TO SHOW/HIDE THIS TEXT \n" +
 				"CREATED BY: [VIVIAN FU, ERIKA DAVIS, and NATALIE LE HUENEN] \n" +
 				"[THE TRANSISTOR MUSEUM]  \n" +
-				"VERSION: 1.1 \n" +
+				"VERSION: 2.0 \n" +
 				"APPLICATION RUNNING ON: [" + Application.platform + "] \n" +
 				"SCREEN RESOLUTION: [" + Screen.currentResolution + "] \n" +
 				"NUMBER OF ACTIVE INDEX NODES: [" + (userInteraction.maxIndex + 1) + "] \n" +

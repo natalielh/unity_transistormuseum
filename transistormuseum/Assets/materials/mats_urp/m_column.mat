@@ -22,7 +22,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: m_column
   m_Shader: {fileID: 4800000, guid: 1d6e561d2a2bdae46a0884077d1708ba, type: 3}
-  m_ShaderKeywords: _BLENDRIM _RIMLIGHT
+  m_ShaderKeywords: _BLENDRIM _ENVIRONMENTREFLECTIONS_OFF _RIMLIGHT _SPECULARHIGHLIGHTS_OFF
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
@@ -124,7 +124,7 @@ Material:
     - _EnableRampMap: 0
     - _EnableRim: 1
     - _EnableStencil: 0
-    - _EnvironmentReflections: 1
+    - _EnvironmentReflections: 0
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
@@ -148,7 +148,7 @@ Material:
     - _SmoothnessTextureChannel: 0
     - _Specular2Mul: 0.5
     - _SpecularFeather: 0
-    - _SpecularHighlights: 1
+    - _SpecularHighlights: 0
     - _SpecularShift1: 0
     - _SpecularShift2: 0
     - _SpecularShiftIntensity: 1

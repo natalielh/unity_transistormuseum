@@ -66,7 +66,8 @@ public class UserInteraction : MonoBehaviour {
                 nodeIndex++;
                 currentlyMoving = true;
                 cameraManager.MoveObjects();
-                BeepAudioSource.Play();
+                //BeepAudioSource.Play();
+                BeepAudioSource.PlayOneShot(BeepAudioSource.clip);
                 infoTextMain.UpdateText();
             }
 
@@ -107,7 +108,7 @@ public class UserInteraction : MonoBehaviour {
             currentlyMoving = true;
             Debug.Log("currentlyMoving set to: " + currentlyMoving);
             cameraManager.MoveObjects();
-            BeepAudioSource.Play();
+            BeepAudioSource.PlayOneShot(BeepAudioSource.clip);
             infoTextMain.UpdateText();
         }
         
@@ -125,7 +126,7 @@ public class UserInteraction : MonoBehaviour {
             currentlyMoving = true;
             Debug.Log("currentlyMoving set to: " + currentlyMoving);
             cameraManager.MoveObjects();
-            BeepAudioSource.Play();
+            BeepAudioSource.PlayOneShot(BeepAudioSource.clip);
             infoTextMain.UpdateText();
         }
         

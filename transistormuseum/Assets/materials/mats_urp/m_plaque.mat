@@ -22,14 +22,15 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: m_plaque
   m_Shader: {fileID: 4800000, guid: 1d6e561d2a2bdae46a0884077d1708ba, type: 3}
-  m_ShaderKeywords: _BLENDRIM
+  m_ShaderKeywords: _BLENDRIM _ENVIRONMENTREFLECTIONS_OFF _SPECULARHIGHLIGHTS_OFF
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: 2000
   stringTagMap:
     RenderType: Opaque
-  disabledShaderPasses: []
+  disabledShaderPasses:
+  - Outline
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -122,11 +123,11 @@ Material:
     - _Emission: 0
     - _EnableHairSpecular: 0
     - _EnableInShadowMap: 0
-    - _EnableOutline: 1
+    - _EnableOutline: 0
     - _EnableRampMap: 0
     - _EnableRim: 0
     - _EnableStencil: 0
-    - _EnvironmentReflections: 1
+    - _EnvironmentReflections: 0
     - _Fog: 1
     - _Fresnel: 1
     - _FresnelOpacity: 1
@@ -160,7 +161,7 @@ Material:
     - _Specular: 1
     - _Specular2Mul: 0.5
     - _SpecularFeather: 0
-    - _SpecularHighlights: 1
+    - _SpecularHighlights: 0
     - _SpecularOpacity: 0.25
     - _SpecularShift1: 0
     - _SpecularShift2: 0

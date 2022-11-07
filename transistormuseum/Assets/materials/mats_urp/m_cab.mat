@@ -22,7 +22,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: m_cab
   m_Shader: {fileID: 4800000, guid: 1d6e561d2a2bdae46a0884077d1708ba, type: 3}
-  m_ShaderKeywords: _BLENDRIM _NORMALMAP
+  m_ShaderKeywords: _BLENDRIM _ENVIRONMENTREFLECTIONS_OFF _NORMALMAP _SPECULARHIGHLIGHTS_OFF
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
@@ -126,7 +126,7 @@ Material:
     - _EnableRampMap: 0
     - _EnableRim: 0
     - _EnableStencil: 0
-    - _EnvironmentReflections: 1
+    - _EnvironmentReflections: 0
     - _Fog: 1
     - _Fresnel: 1
     - _FresnelOpacity: 1
@@ -160,7 +160,7 @@ Material:
     - _Specular: 1
     - _Specular2Mul: 0.5
     - _SpecularFeather: 0.212
-    - _SpecularHighlights: 1
+    - _SpecularHighlights: 0
     - _SpecularOpacity: 0.25
     - _SpecularShift1: 0
     - _SpecularShift2: 0
@@ -182,7 +182,7 @@ Material:
     - _BaseColor: {r: 0.5, g: 0.22451921, b: 0.06367925, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _OutlineColor: {r: 0.27450982, g: 0.003921569, b: 0.003921569, a: 0}
+    - _OutlineColor: {r: 0.27450982, g: 0.003921569, b: 0.003921569, a: 1}
     - _RimColor: {r: 1, g: 1, b: 1, a: 1}
     - _Shadow1Color: {r: 0.3679245, g: 0.01397597, b: 0, a: 0.5}
     - _Shadow2Color: {r: 0.2735849, g: 0.0038714774, b: 0.0038714774, a: 0}
